@@ -1,0 +1,9 @@
+{
+  "company": "Acme Corp",
+  "signal_type": "mass_hiring_signal",
+  "source_url": "https://example.com/article",
+  "matched_keywords": ["hiring", "expansion"],
+  "signal_score": 85,
+  "detected_at": "2026-05-26T17:45:12.345678Z",
+  "reason": "found keywords: hiring, expansion; numeric hiring signal(s): 500"
+}
