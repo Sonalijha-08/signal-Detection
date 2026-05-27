@@ -33,6 +33,7 @@ Detect when a company is entering a large hiring phase by scanning public news, 
 - **Why** – RSS provides timely, structured news without needing API keys; career pages contain explicit hiring counts when companies publish them.
 - **Work‑arounds** – many companies don’t expose a `/careers` page or block bots, so the fetcher falls back gracefully and the system continues with whatever sources succeeded.
 ## Project Structure
+##AI used: Claude code , Copilot , git copilot
 ```
 signal_detection/
 ├─ signals/                # Core signal detection logic
@@ -172,4 +173,3 @@ SELECT * FROM signals;
 - **Add more keywords** – edit `signals/parser.py` → `HIRING_KEYWORDS`.
 - **Tune the scoring** – modify `signals/scorer.py` → `score_signal`.
 - **Improve career‑page discovery** – enhance `signals/fetcher.py` → `fetch_company_careers`.
-- 
